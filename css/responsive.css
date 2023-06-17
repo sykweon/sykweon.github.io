@@ -14,7 +14,7 @@
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
-    .logo {
+    .header_name {
         text-align: center;
     }
     .cart-content-right {
@@ -65,7 +65,7 @@
     }
     .mean-container .mean-nav ul li a {
         padding: 10px 20px;
-        width: 94.8%;
+        width: 100%;
     }
     .mean-container .mean-nav ul li li a {
         width: 92%;
@@ -151,9 +151,10 @@ width: 30%;
 #my_slider a.carousel-control-prev { left: 405px; }
 #my_slider a.carousel-control-next { left: 490px;}
 .ram { top: -70px;}
-.Students_section { padding-top: 10px; } 
+.aboutme_section { padding-top: 30px; } 
 .image_2 { height: 290px; margin-top: 90px; }
-.hiphop_text { width: 20%; }
+.hiphop_text { width: 100%; }
+.hiphop_text_title { width: 100%; }
 .border_0 { width: 460px;}
 .shortcode_left { margin-top: 0px; }
 #main_slider a.carousel-control-prev { left: -20px; top: 62%; }
@@ -218,8 +219,9 @@ width: 30%;
 .dance_text { font-size: 40px; }
 .about_bt { width: 135px;}
 .contact_bt { width: 135px;}
-.welcome_text { font-size: 24px; }
-.Students_section { padding-top: 0px; } 
+.name_text { font-size: 24px; }
+.aboutme_head { font-size: 24px; }
+.aboutme_section { padding-top: 10px; } 
 .classes_section { padding-left: 0px;}
 .image_2 { margin-top: 60px; height: 190px; }
 .box { padding: 40px 0px; font-size: 16px; }
@@ -234,7 +236,8 @@ width: 30%;
 .tempor_text_1 { font-size: 14px; margin: 0px 0px 20px 0px; }
 .mail_section { width: 100%; padding-left: 0px;}
 .time_line { flex-direction: column; align-items: center; }
-.hiphop_text { width: 100%; font-size: 24px; text-align: center; margin: 20px 0px 0px 0px; }
+.hiphop_text { width: 100%; font-size: 22px; margin: 20px 0px 0px 0px; }
+.hiphop_text_title { width: 100%; font-size: 22px; margin: 20px 0px 0px 0px; }
 .border_0 { width: 100%; margin: 10px 0px; }
 .hiphop_text_1 { width: 100%; font-size: 16px; }
 .adderss_text { padding-top: 30PX; }
@@ -303,8 +306,10 @@ padding: 126px 40px;
 .about_bt { width: 135px;}
 .contact_bt { width: 135px;}
 .ram { display: none; }
-.welcome_text { font-size: 24px; }
-.Students_section { padding-top: 120px; } 
+.aboutme_head { font-size: 24px; }
+.aboutme_section { padding-top: 60px; } 
+.aboutme_text { width: 100%; font-size: 20px; margin: 20px 0px 0px 0px; }
+.aboutme_list { width: 90%; font-size: 20px; margin: 20px 0px 0px 0px; }
 .classes_section { padding-left: 0px;}
 .image_2 { margin-top: 60px; height: 190px; }
 .box { padding: 40px 0px; font-size: 16px; }
@@ -314,7 +319,8 @@ padding: 126px 40px;
 .shortcode_right { width: 100%; text-align: center; } 
 .mail_section { width: 100%; padding-left: 0px;}
 .time_line { flex-direction: column; align-items: center; }
-.hiphop_text { width: 100%; font-size: 24px; text-align: center; margin: 20px 0px 0px 0px; }
+.hiphop_text { width: 100%; font-size: 22px; margin: 20px 0px 0px 0px; }
+.hiphop_text_title { width: 100%; font-size: 22px; margin: 20px 0px 0px 0px; }
 .border_0 { width: 100%; margin: 10px 0px; }
 .hiphop_text_1 { width: 100%; font-size: 16px; }
 .adderss_text { padding-top: 30PX; }
@@ -422,8 +428,10 @@ ul.link li {
 .about_bt { width: 135px;}
 .contact_bt { width: 135px;}
 .ram { display: none; }
-.welcome_text { font-size: 24px; }
-.Students_section { padding-top: 120px; } 
+.aboutme_head { font-size: 24px; }
+.aboutme_section { padding-top: 120px; } 
+.aboutme_text { width: 100%; font-size: 22px; margin: 20px 0px 0px 0px; }
+.aboutme_list { width: 90%; font-size: 22px; margin: 20px 0px 0px 0px; }
 .classes_section { padding-left: 0px;}
 .image_2 { margin-top: 30px; }
 .ballet_text { font-size: 30px; } 
@@ -431,7 +439,8 @@ ul.link li {
 .shortcode_right { width: 100%; text-align: center; } 
 .mail_section { width: 100%; padding-left: 0px;}
 .time_line { flex-direction: column; align-items: center; }
-.hiphop_text { width: 100%; font-size: 24px; text-align: center; margin: 20px 0px 0px 0px; }
+.hiphop_text { width: 100%; font-size: 22px; margin: 20px 0px 0px 0px; }
+.hiphop_text_title { width: 100%; font-size: 22px; margin: 20px 0px 0px 0px; }
 .border_0 { width: 100%; margin: 10px 0px; }
 .hiphop_text_1 { width: 100%; font-size: 19px; }
 .adderss_text { padding-top: 30PX; }

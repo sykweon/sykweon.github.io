@@ -128,6 +128,7 @@ ol {
      margin: 0px;
      padding: 0px;
      list-style: none;
+     white-space: nowrap;
 }
 
 p {
@@ -158,6 +159,8 @@ img {
      max-width: 100%;
      height: auto;
 }
+
+strong { font-weight: bold; }
 
  :focus {
      outline: 0;
@@ -224,21 +227,24 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    position: relative;
+    position: fixed;
     z-index: 1;
 }
-.logo{
-    width: 40%;
-    float: left;
+.header_name{
+    width: 70%;
+    font-size: 18px;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #040000;
-    font-size: 18px;
+    font-size: 20px;
+}
+.collapse {
+    margin-left: auto;
+    margin-right: 0;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 30px;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #fff;
@@ -249,10 +255,7 @@ button {
     background-color: #003c61;
 }
 .navbar {
-    padding: 0px 25px 30px 25px;
-}
-.search_icon{
-    padding-top: 30px;
+    padding: 0px 25px 0px 25px;
 }
 .bg-light {
     background-color: #fff !important;
@@ -281,8 +284,65 @@ button {
 .banner_taital{
     width: 100%;
     float: left;
-    padding-left: 100px;
+    padding-left: 50px;
 }
+.name_text{
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #003c61;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.extra_links {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #202020;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.image_1 {
+    width: 100%;
+    float: left;
+}
+
+.aboutme_section {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.aboutme_head{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #040000;
+}
+.aboutme_text{
+    width: 60%;
+    margin: auto !important;
+    font-size: 20px;
+    text-align: left;
+    color: #040000;
+    margin-left: 0px;
+    padding-bottom: 10px;
+}
+
+.aboutme_list {
+    width: 70%;
+    margin: auto !important;
+    font-size: 20px;
+    text-align: left;
+    color: #040000;
+    margin-left: 0px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    list-style-type: circle !important;
+}
+
 .dance_text{
     width: 100%;
     float: left;
@@ -379,7 +439,6 @@ button {
 .image_1 {
     width: 100%;
     float: left;
-    padding-top: 50px;
 }
 
 .Students_section {
@@ -402,6 +461,26 @@ button {
     text-align: center;
     color: #040000;
     margin-left: 0px;
+}
+.contact_bt{
+    width: 170px;
+    margin: 0 auto;
+    text-align: left;
+}
+.contact_bt a {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #003c61;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.contact_bt a:hover{
+        color: #ffffff;
+        background-color: #ff5333;    
 }
 .click_bt{
     width: 170px;
@@ -490,7 +569,6 @@ button {
 .dancer_section{
     width: 100%;
     float: left;
-    background-image: url(../images/dancer-bg.png);
     height: auto;
     background-size: 100%;
 }
@@ -528,14 +606,37 @@ button {
     float: left;
     padding-top: 70px;
 }
-.time_line{
-    display: flex;
+
+.cv_heading {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #131313;
+}
+
+.cv_list {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #131313;
+    list-style-type: circle !important;
+}
+
+.hiphop_text_title{
+    width: 100%;
+    color: #4c4c4e;
+    font-size: 18px;
+    margin-left: 0px;
+    text-align: left;
+    font-weight: bold;
 }
 .hiphop_text{
-    width: 17%;
+    width: 100%;
     color: #4c4c4e;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 0px;
+    text-align: left;
 }
 .border_0 {
     background-color: #7f9db0;
@@ -737,29 +838,26 @@ textarea#comment::placeholder {
     height: auto;
     padding-bottom: 50px;
 }
-.adderss_text{
+.address_text{
     width: 100%;
     float: left;
-    font-size: 20px;
-    color: #f7f7f7;
+    font-size: 22px;
+    color: #f7f7f7 !important;
     font-weight: bold;
-    font-family: Poppins;
 }
 .map_icon {
     width: 100%;
     float: left;
-    font-size: 16px;
-    color: #f7f7f7;
-    font-family: Poppins;
+    font-size: 18px;
+    color: #f7f7f7 !important;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 .map_icon_1 {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: #f7f7f7;
-    font-family: Poppins;
     display: flex;
     padding-bottom: 10px;
     height: 40px;
