@@ -337,8 +337,8 @@ button {
     text-align: left;
     color: #040000;
     margin-left: 0px;
-    margin-left: 0px;
     padding-bottom: 20px;
+    line-height: 24px;
     list-style-type: circle !important;
 }
 
