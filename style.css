@@ -650,16 +650,16 @@ button {
 .shortcode_section_2 {
     width: 100%;
     float: left;
-    padding-top: 20px;
+    padding-bottom: 30px;
 }
-.shortcode_left {
-    width: 80%;
+.shortcode {
+    width: 100%;
     float: left;
     background-color: #eeeee6;
     padding: 18px 20px 0px 20px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    margin-top: 35px;
+    margin-top: 10px;
 }
 .border_left_0 {
     border-top-right-radius: 8px;
@@ -668,10 +668,6 @@ button {
     border-bottom-left-radius: 0pc;
     margin-top: 60px;
 }
-.shortcode_right {
-    width: 20%;
-    float: left;
-}
 .heading_text{
     width: 100%;
     float: left;
@@ -679,7 +675,37 @@ button {
     font-weight: bold;
     color: #131313;
 }
+.subheading_text{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #131313;
+}
+.year_indicator{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #000;
+    margin-left: 0px;
+}
 .tempor_text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin-left: 0px;
+}
+.tempor_list{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.related_url{
     width: 100%;
     float: left;
     font-size: 16px;
